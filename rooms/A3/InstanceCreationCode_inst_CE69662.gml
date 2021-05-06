@@ -1,0 +1,1 @@
+slime_wait = 85;
