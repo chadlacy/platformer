@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description  Sets image speed for dust animation upon creation
+
 image_speed = 0.5;

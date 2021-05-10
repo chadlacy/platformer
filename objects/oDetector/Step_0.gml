@@ -1,5 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for detector object determining how to move/rotate worm based on walls/corners
+// The detector object is a 2x2 pixel object created at the origin of each worm instance
+// When the detector senses an edge/corner, the detector appropriately adjusts worm sprite/motion to continue crawling along wall
+// Detector object was used because of the nature of GMS2 collision checking/sprite rotation, the worm sprite being rectangular makes collision detecion wonky when rotating
 x = parent_worm.x;
 y = parent_worm.y+1;
 

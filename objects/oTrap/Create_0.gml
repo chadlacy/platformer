@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Initialize variables and direction trap will spring in upon creation
 
 sprung = false;
 finished_sprung = false;

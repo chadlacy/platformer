@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Commands to draw on GUI layer to display health, gold etc. Also used to draw player variable info to screen for debugging
+
 draw_set_color(c_white);
 
 draw_text(0,0, string("Health: " + string(oPlayer.player_health)));

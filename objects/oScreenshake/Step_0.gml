@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Code for implementing screenshake, called when player does a ground pound or oStone falls and hits the ground
+
 if (shake) 
 { 
    shake_time -= 1; 

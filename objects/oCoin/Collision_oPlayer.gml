@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for what happens when player grabs coin
 
 if (grabbable_timer <= 0) {
 	if (sprite_index != sCoinGrab) {

@@ -1,5 +1,5 @@
 /// @description Size variables and mode setup
-// You can write your code in this editor
+
 draw_set_font(Font1);
 
 w = display_get_gui_width();

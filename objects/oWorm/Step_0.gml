@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for determining state of worm object based on value of worm_state variable
+
 if (worm_health <= 0) {
 	worm_state = SLIMESTATE.DEATH;
 }

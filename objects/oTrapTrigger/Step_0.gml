@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Finds corresponding trap to trigger based on what has been assigned to target variable
+
 if (target == noone) {
 	for (var cnt = 0; cnt < instance_number(oTrap); cnt++) {
 		var instance = instance_find(oTrap, cnt);

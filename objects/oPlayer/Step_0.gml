@@ -12,7 +12,7 @@ key_dash = keyboard_check_pressed(vk_enter);
 key_down = keyboard_check_pressed(ord("S"));
 key_down_held = keyboard_check(ord("S"));
 
-
+// Switch statement determining what state the player is in
 if (global.game_state == GAMESTATE.RUN) {
 	switch (state) {
 		case PLAYERSTATE.FREE: PlayerState_Free(); break;

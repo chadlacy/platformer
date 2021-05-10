@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic to make sure hitbox created from attack slash follows user while moving/jumping/etc
 
 x = oPlayer.x;
 y = oPlayer.y;

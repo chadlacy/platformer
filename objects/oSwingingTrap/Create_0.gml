@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Determine orientation for trap from "orientation" in Variable Defintions of object
+
 switch (orientation) {
 	case "down":
 		// default sprite

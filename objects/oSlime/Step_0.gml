@@ -1,4 +1,4 @@
-
+/// @description Logic to determine state of Slime object based on slime_state variable
 if (slime_health <= 0) {
 	slime_state = SLIMESTATE.DEATH;
 }

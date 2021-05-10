@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize depth upon creation. Needs to be behind oPlayer
 depth = 10;

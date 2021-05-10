@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description sets image speed for hit animation
+
 image_speed = 0.5;

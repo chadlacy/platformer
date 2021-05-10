@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Intializes variables for worm object, creates detector object for collision detection at corners/walls, creates state machine
+
 worm_health = 15;
 worm_hitstun = 0;
 worm_hitstun_duration = 15;
@@ -7,7 +7,7 @@ worm_hitstun_duration = 15;
 // Create detector at origin of instance, used for detecting wall corner/edges
 instance_create_layer(x,y+1,"Instances",oDetector);
 
-if (worm_direction == 0) {
+if (worm_direction == 0) { // 0 is clockwise, 1 is counterclockwise
 	hsp = 0.25;
 }
 else {

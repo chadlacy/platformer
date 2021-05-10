@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroys vase object at the end of vase break animation
+
 if (sprite_index == sVaseBreak) {
 		instance_destroy();
 }

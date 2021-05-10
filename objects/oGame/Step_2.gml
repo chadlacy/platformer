@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Event for determining behavior of game/changing game state based on pause, reading text, etc.
+
 if (global.game_state == GAMESTATE.RUN) {
 	with(all) {
 		if (image_speed == 0) {

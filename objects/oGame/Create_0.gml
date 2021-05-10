@@ -1,5 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Game object to determine game state and other general settings
+// Create event sets gamestate and other important variables
+
 window_set_fullscreen(true);
 randomize();
 

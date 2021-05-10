@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroy spikes once they are outside the room
 instance_destroy();

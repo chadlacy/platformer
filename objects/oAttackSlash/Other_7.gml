@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroys hitbox once animation is over
+
 instance_destroy();

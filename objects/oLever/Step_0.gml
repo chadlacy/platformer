@@ -1,6 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-if (target == noone) {
+/// @description Logic to assign target door to lever
+
+if (target == noone) { // Target is set to noone upon creation, change "door_to_open" in Variable Definitions of button instance to the desired target door
 	for (var cnt = 0; cnt < instance_number(oDoorS); cnt++) {
 		var instance = instance_find(oDoorS, cnt);
 		

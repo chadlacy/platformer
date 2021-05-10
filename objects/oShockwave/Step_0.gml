@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for determining how to handle collisions between shockwave and enemies/various interactable objects
 
 var _hit_by_shockwave_now = ds_list_create();
 var _hits = instance_place_list(x,y,oInteractable,_hit_by_shockwave_now,false);

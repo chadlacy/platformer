@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroy player object at the end of death animation
+
 if (sprite_index == sPlayerD) {
 	instance_destroy();
 }

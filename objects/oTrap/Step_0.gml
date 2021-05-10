@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description logic for springing trap 
+
 if (sprung == true) {
 	if (image_index == 5) {
 		instance_create_layer(x,y,"Instances",oTrapSpikes);

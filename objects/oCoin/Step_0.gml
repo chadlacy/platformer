@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Physics for coin bouncing when launched from chest/similar conatiners
 
 vsp = vsp + grv;
 

@@ -122,7 +122,6 @@
     {"id":{"name":"PlayerState_Hitstun","path":"scripts/PlayerState_Hitstun/PlayerState_Hitstun.yy",},"order":7,},
     {"id":{"name":"sPlayerFall","path":"sprites/sPlayerFall/sPlayerFall.yy",},"order":2,},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},"order":0,},
-    {"id":{"name":"oStartLoc","path":"objects/oStartLoc/oStartLoc.yy",},"order":8,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"sTrapSpring","path":"sprites/sTrapSpring/sTrapSpring.yy",},"order":17,},
     {"id":{"name":"sShockwave","path":"sprites/sShockwave/sShockwave.yy",},"order":15,},

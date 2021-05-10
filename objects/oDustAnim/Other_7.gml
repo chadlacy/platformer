@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Sets proper sprite index or destroys animation object at the end of each animation
 
 if (sprite_index == sPreJump) {
 	sprite_index = sPostJump;

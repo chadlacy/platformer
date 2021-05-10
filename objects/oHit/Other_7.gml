@@ -1,3 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Destroys hit animation object on animation end
+
 instance_destroy();

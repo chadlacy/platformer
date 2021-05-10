@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for generating various item that the chest can contain
+
 if (sprite_index == sOpenChest) {
 	if (item_held == oCoin) {
 		if (quantity > 0) {

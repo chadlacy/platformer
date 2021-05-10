@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize variables for slime object upon creation, create states for state machine
+
 slime_health = 15;
 slime_hitstun = 0;
 slime_hitstun_duration = 15;

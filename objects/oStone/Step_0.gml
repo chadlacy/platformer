@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Logic for collision detecting and falling
 
 if (oPlayer.state == PLAYERSTATE.FREE) {
 	hsp = 0;

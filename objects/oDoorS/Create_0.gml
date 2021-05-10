@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Create state machine for oDoorS object
+
 prev_state = DOORSTATE.CLOSED;
 door_state = DOORSTATE.CLOSED;
 

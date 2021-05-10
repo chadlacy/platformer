@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize physics variables for oStone upon creation
+
 vsp = 0;
 hsp = 0;
 grv = 0.3;

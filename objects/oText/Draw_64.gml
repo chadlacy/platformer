@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draws text to GUI layer on screen
 
 global.game_state = GAMESTATE.READ;
 

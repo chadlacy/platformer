@@ -1,4 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initializes speed of fire spell (this may not be used in final game)
+
 speed = 36;
 

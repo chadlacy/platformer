@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Initialize variables upon creation
+
 hsp = 0;
 vsp = 0;
 depth = 30;
