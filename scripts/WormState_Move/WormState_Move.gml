@@ -27,6 +27,24 @@ function WormState_Move(){
 		}
 	}
 	else { // Counter clockwise
+		switch (image_angle){
+			case 0: // Moving left, right side up
+				hsp = -0.25;
+				vsp = 0;
+			break;
+			case 90: // Moving down, left side of wall
+				hsp = 0;
+				vsp = 0.25; 
+			break;
+			case 180: // Moving right, upside down
+				hsp = 0.25;
+				vsp = 0;
+			break;
+			case 270: // Moving up, right side of wall
+				hsp = 0;
+				vsp = -0.25;
+			break;
+		}
 	}
 	
 	x = x + hsp;
