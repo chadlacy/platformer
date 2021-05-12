@@ -146,8 +146,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"wormtest","path":"rooms/wormtest/wormtest.yy",},},
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
+    {"roomId":{"name":"wormtest","path":"rooms/wormtest/wormtest.yy",},},
     {"roomId":{"name":"A2","path":"rooms/A2/A2.yy",},},
     {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"A1","path":"rooms/A1/A1.yy",},},

@@ -3,6 +3,8 @@
 function WormState_Death(){
 	sprite_index = sWormD;
 	if (animation_end()) {
+		var _detector = instance_place(x,y,oDetector); // Get ID of detector attached to worm
+		instance_destroy(_detector); // Destroy both detector and worm
 		instance_destroy();
 	}
 }
