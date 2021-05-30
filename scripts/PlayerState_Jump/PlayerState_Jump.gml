@@ -61,6 +61,11 @@ function PlayerState_Jump(){
 		dash_cooldown -= 1;
 	}
 	
+	// Check for collision with enemies
+	if (place_meeting(x,y,oEnemy)) {		
+		state = PLAYERSTATE.HITSTUN;	
+	}
+	
 	// Check for collision with spikes
 	if (place_meeting(x,y,oSpikes)) {
 		player_health -= 35;

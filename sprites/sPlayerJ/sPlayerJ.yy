@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,9 +7,9 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 13,
-  "bbox_top": 0,
+  "bbox_left": 4,
+  "bbox_right": 11,
+  "bbox_top": 1,
   "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
@@ -75,6 +75,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ceb542c7-930f-484c-9a3d-fbe9d1449d7e","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Player Sprites",
     "path": "folders/Sprites/Player Sprites.yy",

@@ -1,6 +1,6 @@
 /// Attributes for player character upon creation
 
-player_health = 100; // Do I really need to explain this
+player_health = 100000; // Do I really need to explain this
 hsp = 0; // Horizontal speed
 vsp = 0; // Vertical Speed
 max_vsp = 12; // Maximum vsp (so long ground pounds don't become ridiculously fast)
