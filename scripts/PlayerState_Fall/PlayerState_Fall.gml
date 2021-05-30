@@ -47,6 +47,7 @@ function PlayerState_Fall(){
 	
 	// Check for collision with enemies
 	if (place_meeting(x,y,oEnemy)) {		
+		enemy = instance_place(x,y,oEnemy);
 		state = PLAYERSTATE.HITSTUN;	
 	}
 	

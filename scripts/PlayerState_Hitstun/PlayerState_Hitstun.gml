@@ -1,6 +1,6 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function PlayerState_Hitstun(){
+function PlayerState_Hitstun(enemy){
 	
 	if (prev_state != PLAYERSTATE.HITSTUN) {
 		
@@ -11,7 +11,6 @@ function PlayerState_Hitstun(){
 		image_speed = 0.5;
 		
 		// Get ID of enemy for recoil calculations later on
-		enemy = instance_place(x,y,oEnemy);
 		player_health -= 10;
 		recoiling = 15;
 		// Set player speed to 0 so recoiling physics are consistent regardless of what happens before collision

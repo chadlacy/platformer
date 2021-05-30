@@ -13,6 +13,7 @@ jump_current = 1; // How many jumps the player is currently able to perform (at 
 jump_number = 1; // How many jumps the player is allowed to perform before touching the ground
 dash_length = 15; // How long the dash is in frames
 dash_cooldown = 0; // This needs to be zero to initiate a dash
+enemy = noone; // Used for collision calculations
 gp_endlag = 20;
 gp_endlag_counter = gp_endlag;
 recoiling = 0; // Hitstun/recoil state
@@ -22,6 +23,7 @@ respawn = noone; // Variable that points to the last respawn point collided with
 transition_length = 25; // Max value of transition counter
 transition_counter = transition_length; // Counter for keeping player in transition state (unactionable)
 gold = 0;
+
 
 // Global variables that determine where player ends up in new room. They are default set to where the player starts the game
 global.targetx = 350;
