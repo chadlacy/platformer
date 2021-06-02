@@ -3,6 +3,7 @@
 function MushState_Poison(){
 	if (sprite_index != sMushPoison) {
 		sprite_index = sMushPoison;
+		image_index = 0;
 		poison_cooldown = poison_cooldown_max;
 	}
 	

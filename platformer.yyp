@@ -8,6 +8,7 @@
     {"id":{"name":"oWoodSign","path":"objects/oWoodSign/oWoodSign.yy",},"order":3,},
     {"id":{"name":"sPlayerPush","path":"sprites/sPlayerPush/sPlayerPush.yy",},"order":13,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":8,},
+    {"id":{"name":"sMushH","path":"sprites/sMushH/sMushH.yy",},"order":3,},
     {"id":{"name":"sPostJump","path":"sprites/sPostJump/sPostJump.yy",},"order":8,},
     {"id":{"name":"oShockwave","path":"objects/oShockwave/oShockwave.yy",},"order":5,},
     {"id":{"name":"PlayerState_Dash","path":"scripts/PlayerState_Dash/PlayerState_Dash.yy",},"order":2,},

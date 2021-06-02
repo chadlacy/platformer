@@ -72,6 +72,12 @@ function PlayerState_Attack_Slash(){
 							worm_health -= 5;
 							worm_state = WORMSTATE.HITSTUN();
 						}
+						if (hitID.object_index == oMushroom) {
+							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
+							oHit.image_xscale = oPlayer.image_xscale;
+							mush_health -= 5;
+							mush_state = MUSHSTATE.HITSTUN();
+						}
 					}
 				}
 			}

@@ -11,7 +11,7 @@ function PlayerState_Hitstun(enemy){
 		image_speed = 0.5;
 		
 		// Get ID of enemy for recoil calculations later on
-		player_health -= 10;
+		player_health -= 10; // This needs to be changed eventually to be different per whatever the player gets hit by
 		recoiling = 15;
 		// Set player speed to 0 so recoiling physics are consistent regardless of what happens before collision
 		hsp = 0;

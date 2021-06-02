@@ -20,7 +20,7 @@ if (global.game_state == GAMESTATE.RUN) {
 		case PLAYERSTATE.FALL: PlayerState_Fall(); break;
 		case PLAYERSTATE.ATTACK_SLASH: PlayerState_Attack_Slash(); break;
 		case PLAYERSTATE.ATTACK_SPELL: PlayerState_Attack_Spell(); break;
-		case PLAYERSTATE.HITSTUN: PlayerState_Hitstun(); break;
+		case PLAYERSTATE.HITSTUN: PlayerState_Hitstun(enemy); break;
 		case PLAYERSTATE.DASH: PlayerState_Dash(); break;
 		case PLAYERSTATE.PUSH: PlayerState_Push(); break;
 		case PLAYERSTATE.GROUNDPOUND: PlayerState_GroundPound(); break;
