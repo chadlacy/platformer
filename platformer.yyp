@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"sMushD","path":"sprites/sMushD/sMushD.yy",},"order":4,},
     {"id":{"name":"oInteractable","path":"objects/oInteractable/oInteractable.yy",},"order":1,},
     {"id":{"name":"MushState_Move","path":"scripts/MushState_Move/MushState_Move.yy",},"order":0,},
     {"id":{"name":"sCoin","path":"sprites/sCoin/sCoin.yy",},"order":0,},
