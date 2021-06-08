@@ -22,6 +22,9 @@ last_room = noone; // Stores the last room the player was in for room transition
 respawn = noone; // Variable that points to the last respawn point collided with for respawning after spikes
 transition_length = 25; // Max value of transition counter
 transition_counter = transition_length; // Counter for keeping player in transition state (unactionable)
+poisoned = false; // Flag for determining if player is poisoned or not
+poison_counter = 0; // Counter for being poisoned
+poison_duration = 240; // The max length that player can be poisoned
 gold = 0;
 
 

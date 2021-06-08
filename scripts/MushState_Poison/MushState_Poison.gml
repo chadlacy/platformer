@@ -7,6 +7,8 @@ function MushState_Poison(){
 		poison_cooldown = poison_cooldown_max;
 	}
 	
+	instance_create_layer(x,y,"Instances",oPoison);
+	
 	if (animation_end()) {
 		mush_state = MUSHSTATE.MOVE;
 	}

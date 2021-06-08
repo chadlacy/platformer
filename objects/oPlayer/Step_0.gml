@@ -29,3 +29,16 @@ if (global.game_state == GAMESTATE.RUN) {
 	}
 }
 
+if (poisoned == true && poison_counter > 0) {
+	if (poison_counter % 20 == 0){
+		player_health -= 1;
+	}
+	poison_counter -= 1;
+}
+
+if (poison_counter <= 0) {
+	poisoned = false;
+	poison_counter = poison_duration;
+}
+
+

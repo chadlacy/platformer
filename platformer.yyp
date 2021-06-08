@@ -81,6 +81,7 @@
     {"id":{"name":"sOpenChest","path":"sprites/sOpenChest/sOpenChest.yy",},"order":6,},
     {"id":{"name":"sSlimeW","path":"sprites/sSlimeW/sSlimeW.yy",},"order":3,},
     {"id":{"name":"sSpikesFall","path":"sprites/sSpikesFall/sSpikesFall.yy",},"order":18,},
+    {"id":{"name":"oPoison","path":"objects/oPoison/oPoison.yy",},"order":5,},
     {"id":{"name":"sDoorO","path":"sprites/sDoorO/sDoorO.yy",},"order":16,},
     {"id":{"name":"oSpikes","path":"objects/oSpikes/oSpikes.yy",},"order":1,},
     {"id":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"order":2,},

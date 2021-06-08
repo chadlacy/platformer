@@ -1,15 +1,15 @@
 {
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 4,
   "type": 0,
   "origin": 4,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 24,
-  "bbox_right": 39,
-  "bbox_top": 27,
+  "bbox_left": 0,
+  "bbox_right": 46,
+  "bbox_top": 0,
   "bbox_bottom": 39,
   "HTile": false,
   "VTile": false,
@@ -48,6 +48,30 @@
         {"FrameId":{"name":"aaebdfc3-be26-4162-95f8-14ce86cf6092","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"aaebdfc3-be26-4162-95f8-14ce86cf6092","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"aaebdfc3-be26-4162-95f8-14ce86cf6092","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"f4cc7614-ad0d-407f-903a-1abfe67fa78b","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"f4cc7614-ad0d-407f-903a-1abfe67fa78b","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"f4cc7614-ad0d-407f-903a-1abfe67fa78b","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"f4cc7614-ad0d-407f-903a-1abfe67fa78b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7683763f-a371-4f4d-a323-505f3743fb3f","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7683763f-a371-4f4d-a323-505f3743fb3f","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"7683763f-a371-4f4d-a323-505f3743fb3f","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"7683763f-a371-4f4d-a323-505f3743fb3f","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"a56819d0-65cc-4cfe-a130-9b7dc2ef2fa7","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"a56819d0-65cc-4cfe-a130-9b7dc2ef2fa7","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"a56819d0-65cc-4cfe-a130-9b7dc2ef2fa7","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"a56819d0-65cc-4cfe-a130-9b7dc2ef2fa7","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ce0a3631-3ddf-4e37-bede-6e9ffc3afa30","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ce0a3631-3ddf-4e37-bede-6e9ffc3afa30","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ce0a3631-3ddf-4e37-bede-6e9ffc3afa30","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"ce0a3631-3ddf-4e37-bede-6e9ffc3afa30","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"569fe15f-26f1-472d-b8f1-81e885b9be5c","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"569fe15f-26f1-472d-b8f1-81e885b9be5c","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"569fe15f-26f1-472d-b8f1-81e885b9be5c","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"569fe15f-26f1-472d-b8f1-81e885b9be5c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fc678ab6-571a-46cb-924a-04875b005d39","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fc678ab6-571a-46cb-924a-04875b005d39","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"fd542079-aed1-40b8-972c-191ec55de366","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"fc678ab6-571a-46cb-924a-04875b005d39","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"LayerId":{"name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","name":"fc678ab6-571a-46cb-924a-04875b005d39","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sPoisonCloud","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},
@@ -57,7 +81,7 @@
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 12.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -68,6 +92,12 @@
             {"id":"527ca371-aead-40b5-a879-2d65bf259fe8","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6cdafd79-ebf8-44ca-aa5b-46e423ee4c47","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"92f810e6-ca6d-4230-80ef-17366b04b3e3","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"961fa675-d448-4969-b510-0693a4feaf1a","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"6090a2f2-3503-48aa-8df3-448b8a316df3","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"aaebdfc3-be26-4162-95f8-14ce86cf6092","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"da01b536-03c8-4d40-888e-526fba39b59a","Key":6.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"f4cc7614-ad0d-407f-903a-1abfe67fa78b","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"54500c9f-d39e-4b8b-b2c4-d07a8fdf5f83","Key":7.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7683763f-a371-4f4d-a323-505f3743fb3f","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"50c64f0d-241c-47d1-a644-578ff377c8c3","Key":8.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a56819d0-65cc-4cfe-a130-9b7dc2ef2fa7","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"e5bfcd0b-0954-42a1-aa57-a36eb7d349bf","Key":9.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ce0a3631-3ddf-4e37-bede-6e9ffc3afa30","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a69911b4-5ba7-4f59-81ac-9c117079a27e","Key":10.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"569fe15f-26f1-472d-b8f1-81e885b9be5c","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"5403f6c3-0ad6-447a-8a15-f1688af1d614","Key":11.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fc678ab6-571a-46cb-924a-04875b005d39","path":"sprites/sPoisonCloud/sPoisonCloud.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -92,7 +122,7 @@
   },
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"fd542079-aed1-40b8-972c-191ec55de366","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"162bd7bd-29f6-4756-ab30-f7e06cea4751","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
