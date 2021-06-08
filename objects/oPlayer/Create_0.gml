@@ -31,8 +31,8 @@ global.targety = 279;
 
 // POWERUPS SECTION
 has_dj = true;
-has_dash = false;
-has_gp = false;
+has_dash = true;
+has_gp = true;
 has_push = false;
 pushsp = 1;
 

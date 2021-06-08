@@ -19,6 +19,14 @@ if (_hits > 0) {
 					slime_health -= 5;
 					slime_state = SLIMESTATE.HITSTUN();
 				}
+				if (hitID.object_index == oWorm) {
+					worm_health -= 5;
+					worm_state = WORMSTATE.HITSTUN();
+				}
+				if (hitID.object_index == oMushroom) {
+					mush_health -= 5;
+					mush_state = MUSHSTATE.HITSTUN();
+				}
 			}
 		}
 	}
