@@ -142,6 +142,7 @@
     {"id":{"name":"sHit","path":"sprites/sHit/sHit.yy",},"order":12,},
     {"id":{"name":"PlayerState_Trans","path":"scripts/PlayerState_Trans/PlayerState_Trans.yy",},"order":9,},
     {"id":{"name":"oTrapSpikes","path":"objects/oTrapSpikes/oTrapSpikes.yy",},"order":12,},
+    {"id":{"name":"beta1","path":"rooms/beta1/beta1.yy",},"order":12,},
     {"id":{"name":"sSpikes","path":"sprites/sSpikes/sSpikes.yy",},"order":4,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
   ],
@@ -157,6 +158,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"beta1","path":"rooms/beta1/beta1.yy",},},
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"roomId":{"name":"wormtest","path":"rooms/wormtest/wormtest.yy",},},
     {"roomId":{"name":"A2","path":"rooms/A2/A2.yy",},},

@@ -29,14 +29,14 @@ gold = 0;
 
 
 // Global variables that determine where player ends up in new room. They are default set to where the player starts the game
-global.targetx = 350;
-global.targety = 279;
+global.targetx = 49;
+global.targety = 49;
 
 // POWERUPS SECTION
 has_dj = true;
 has_dash = true;
 has_gp = true;
-has_push = false;
+has_push = true;
 pushsp = 1;
 
 prev_state = PLAYERSTATE.FREE;
