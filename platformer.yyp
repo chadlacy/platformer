@@ -159,10 +159,10 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"beta1","path":"rooms/beta1/beta1.yy",},},
+    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
     {"roomId":{"name":"wormtest","path":"rooms/wormtest/wormtest.yy",},},
     {"roomId":{"name":"A2","path":"rooms/A2/A2.yy",},},
-    {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"A1","path":"rooms/A1/A1.yy",},},
     {"roomId":{"name":"A3","path":"rooms/A3/A3.yy",},},
     {"roomId":{"name":"A4","path":"rooms/A4/A4.yy",},},
