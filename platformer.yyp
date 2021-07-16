@@ -32,6 +32,7 @@
     {"id":{"name":"WormState_Move","path":"scripts/WormState_Move/WormState_Move.yy",},"order":3,},
     {"id":{"name":"A4","path":"rooms/A4/A4.yy",},"order":6,},
     {"id":{"name":"sMountains","path":"sprites/sMountains/sMountains.yy",},"order":0,},
+    {"id":{"name":"beta2","path":"rooms/beta2/beta2.yy",},"order":13,},
     {"id":{"name":"sSwingingTrap","path":"sprites/sSwingingTrap/sSwingingTrap.yy",},"order":19,},
     {"id":{"name":"oTrap","path":"objects/oTrap/oTrap.yy",},"order":11,},
     {"id":{"name":"sPlatMid","path":"sprites/sPlatMid/sPlatMid.yy",},"order":9,},
@@ -158,6 +159,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"beta2","path":"rooms/beta2/beta2.yy",},},
     {"roomId":{"name":"beta1","path":"rooms/beta1/beta1.yy",},},
     {"roomId":{"name":"testroom","path":"rooms/testroom/testroom.yy",},},
     {"roomId":{"name":"Start","path":"rooms/Start/Start.yy",},},
@@ -214,7 +216,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.570",
   },
   "resourceVersion": "1.4",
   "name": "platformer",

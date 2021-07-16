@@ -2,7 +2,7 @@
 
 if (sprung == true) {
 	if (image_index == 5) {
-		instance_create_layer(x,y,"Instances",oTrapSpikes);
+		var _trap_spikes = instance_create_layer(x,y,"Instances",oTrapSpikes);
 		finished_sprung = true;
 	}
 	if (finished_sprung == true) {

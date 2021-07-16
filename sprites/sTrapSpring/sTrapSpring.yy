@@ -2,7 +2,7 @@
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
-  "origin": 0,
+  "origin": 1,
   "preMultiplyAlpha": false,
   "edgeFiltering": false,
   "collisionTolerance": 0,
@@ -78,7 +78,7 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 0,
+    "xorigin": 8,
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
@@ -91,6 +91,7 @@
   "layers": [
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d64de911-a2cf-44b6-870d-410f0a71628f","tags":[],"resourceType":"GMImageLayer",},
   ],
+  "nineSlice": null,
   "parent": {
     "name": "Terrain Sprites",
     "path": "folders/Sprites/Terrain Sprites.yy",
