@@ -1,4 +1,4 @@
-// This script contains the code of the "Fall" state of the player
+ // This script contains the code of the "Fall" state of the player
 // Fall state can possibly transition to these states:
 // FREE
 // JUMP

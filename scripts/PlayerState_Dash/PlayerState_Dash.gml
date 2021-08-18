@@ -5,7 +5,7 @@ function PlayerState_Dash(){
 	if (prev_state != PLAYERSTATE.DASH) {
 		hsp = 0;
 		vsp = 0;
-		dash_length = 15;
+		dash_length_counter = dash_length;
 		sprite_index = sPlayerFall;
 		prev_state = PLAYERSTATE.DASH;
 	}
@@ -15,9 +15,10 @@ function PlayerState_Dash(){
 		with (inst) {
 			image_angle = -90;
 		}
-		hsp += 2.75;
-		dash_length -= 1;
-		if (0 <= dash_length <= 5) { // Slow dash down in last few frames
+		//hsp += 2.75;
+		hsp = 8;
+		dash_length_counter -= 1;
+		if (0 <= dash_length_counter <= 5) { // Slow dash down in last few frames
 			hsp -= 2;
 		}
 	} 
@@ -26,18 +27,20 @@ function PlayerState_Dash(){
 		with (inst) {
 			image_angle = 90;
 		}
-		hsp -= 2.75;
-		dash_length -= 1;
-		if (0 <= dash_length <= 5) {
+		//hsp -= 2.75;
+		hsp = -8;
+		dash_length_counter -= 1;
+		if (0 <= dash_length_counter <= 5) {
 			hsp += 2;
 		}
 	}
 	
-	if (dash_length <= 10) {
-		if (dash_length > 1 && key_attack) {
+	// Code for allowing player to buffer attacks out of dash
+	if (dash_length_counter <= 10) {
+		if (dash_length_counter > 1 && key_attack) {
 			buffer = true;
 		}
-		if (dash_length <= 1 && buffer == true) {
+		if (dash_length_counter <= 1 && buffer == true) {
 			hsp = 0;
 			dash_cooldown = 30;
 			state = PLAYERSTATE.ATTACK_SLASH;
@@ -45,7 +48,7 @@ function PlayerState_Dash(){
 		}
 	}
 	
-	if (dash_length <= 0) {
+	if (dash_length_counter <= 0) {
 		hsp = 0;
 		vsp = 0;
 		dash_cooldown = 30;
@@ -75,11 +78,11 @@ function PlayerState_Dash(){
 			x = x + sign(hsp);
 		}
 		hsp = 0;
-		if (dash_length <= 7) {
-			dash_length = 15;
+		if (dash_length_counter <= 7) {
+			dash_length_counter = dash_length;
 		}
 		else {
-			dash_length = 0;
+			dash_length_counter = 0;
 		}
 		
 		state = PLAYERSTATE.FALL;

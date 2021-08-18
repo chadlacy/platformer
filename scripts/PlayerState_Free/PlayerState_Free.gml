@@ -122,7 +122,7 @@ function PlayerState_Free(){
 		}
 		vsp = 0;
 		// Reset all counters/variables for movement optons that can be performed midair
-		dash_length = 15;
+		dash_length_counter = dash_length;
 		jump_current = jump_number;
 		gp_stall = 0;
 	}
@@ -134,7 +134,7 @@ function PlayerState_Free(){
 		}
 		vsp = 0;
 		// Reset all counters/variables for movement optons that can be performed midair
-		dash_length = 15;
+		dash_length_counter = dash_length;
 		jump_current = jump_number;
 		gp_stall = 0;
 	}
@@ -151,7 +151,7 @@ function PlayerState_Free(){
 				}
 				vsp = 0;
 				// Reset all counters/variables for movement optons that can be performed midair
-				dash_length = 15;
+				dash_length_counter = dash_length;
 				jump_current = jump_number;
 				gp_stall = 0;
 			}
