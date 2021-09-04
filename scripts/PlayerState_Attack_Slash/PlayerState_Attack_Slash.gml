@@ -22,6 +22,18 @@ function PlayerState_Attack_Slash(){
 		sprite_index = sAttackSlash;
 		image_index = 0;
 		image_speed = 0.65;
+		var _sword_sound = irandom(2);
+		switch (_sword_sound) {
+			case 0:
+				audio_play_sound(SwordSwing1, 10, false);
+			break;
+			case 1:
+				audio_play_sound(SwordSwing2, 10, false);
+			break;
+			case 2:
+				audio_play_sound(SwordSwing3, 10, false);
+			break;
+		}
 		hitbox = instance_create_layer(x,y,"Instances",oAttackSlash);
 		ds_list_clear(hit_by_attack);
 	}
@@ -63,18 +75,21 @@ function PlayerState_Attack_Slash(){
 						if (hitID.object_index == oSlime) {
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
+							audio_play_sound(SwordHitEnemy, 10, false);
 							slime_health -= 5;
 							slime_state = SLIMESTATE.HITSTUN();
 						}
 						if (hitID.object_index == oWorm) {
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
+							audio_play_sound(SwordHitEnemy, 10, false);
 							worm_health -= 5;
 							worm_state = WORMSTATE.HITSTUN();
 						}
 						if (hitID.object_index == oMushroom) {
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
+							audio_play_sound(SwordHitEnemy, 10, false);
 							mush_health -= 5;
 							mush_state = MUSHSTATE.HITSTUN();
 						}
@@ -126,20 +141,15 @@ function PlayerState_Attack_Slash(){
 		vsp = 0;
 	}
 	
-	// Vertical collision check with platforms
+	//Vertical collision with platforms (can only collide from above platform)
 	if (instance_exists(oPlatform)) {
 		var _player_feet = y + sprite_height / 2;
-		var _i = 0;
+		var _nearest_platform = instance_nearest(x,y,oPlatform);
 	
-		//Vertical collision with platforms (can only collide from above platform)
-		if (_player_feet < oPlatform.y+1 && !key_down) {
-			if (place_meeting(x,y+vsp+1,oPlatform)) {
-				while (!place_meeting(x,y+sign(vsp),oPlatform)) {
-					if (_i = 10) {  // Prevent game from freezing up in edge cases involving collisions with platform and wall simultaneously
-						exit;
-					}
+		if (floor(_player_feet) < floor(_nearest_platform.y+1) && !key_down_held) {
+			if (place_meeting(x,y+vsp,_nearest_platform)) {
+				while (!place_meeting(x,y+sign(vsp),_nearest_platform)) {
 					y = y + sign(vsp);
-					_i += 1;
 				}
 				vsp = 0;
 			}

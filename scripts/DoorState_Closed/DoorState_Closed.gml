@@ -5,6 +5,7 @@ function DoorState_Closed(){
 		if (sprite_index == sDoorO) {
 			image_speed = -1;
 			prev_state = DOORSTATE.CLOSED;
+			audio_play_sound(DoorOpenClose, 10, false);
 			//ScreenShake(56, 1, 0.2);
 		}
 		else {
@@ -12,6 +13,7 @@ function DoorState_Closed(){
 			image_index = 13;
 			sprite_index = sDoorO;
 			prev_state = DOORSTATE.CLOSED;
+			audio_play_sound(DoorOpenClose, 10, false);
 			//ScreenShake(56, 1, 0.2);
 		}
 	}
