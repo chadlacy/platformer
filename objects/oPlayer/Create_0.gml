@@ -9,6 +9,7 @@ walksp = 2; // Walk Speed
 jumpsp = 4; // Jump speed
 djumpsp = jumpsp / 1.2 // Double Jump speed
 airspeed = 1;
+hitlag = 0;
 jump_current = 1; // How many jumps the player is currently able to perform (at this immediate moment)
 jump_number = 1; // How many jumps the player is allowed to perform before touching the ground
 dash_length = 12; // How long the dash is in frames

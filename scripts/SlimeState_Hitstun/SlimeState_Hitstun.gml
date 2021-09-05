@@ -10,52 +10,57 @@ function SlimeState_Hitstun(){
 		image_speed = 0.5;
 	}
 	
-	if (slime_hitstun <= 0) {
-		slime_state = SLIMESTATE.IDLE;
+	if (slime_hitlag > 0) {
+		slime_hitlag -= 1;
 	}
+	else {
+		if (slime_hitstun <= 0) {
+			slime_state = SLIMESTATE.IDLE;
+		}
 	
-	if (x < oPlayer.x) {
-		if (slime_hitstun >= slime_hitstun_duration) {
-			hsp = -1;
-			vsp = -2;
-		} 
-		else {
-			hsp -= 0.2;
-			vsp += 0.2;
+		if (x < oPlayer.x) {
+			if (slime_hitstun >= slime_hitstun_duration) {
+				hsp = -1;
+				vsp = -2;
+			} 
+			else {
+				hsp -= 0.2;
+				vsp += 0.2;
+			}
 		}
-	}
-	if (x > oPlayer.x) {
-		if (slime_hitstun >= slime_hitstun_duration) {
-			hsp = 1;
-			vsp = -2;
-		} 
-		else {
-			hsp += 0.2;
-			vsp += 0.2;
+		if (x > oPlayer.x) {
+			if (slime_hitstun >= slime_hitstun_duration) {
+				hsp = 1;
+				vsp = -2;
+			} 
+			else {
+				hsp += 0.2;
+				vsp += 0.2;
+			}
 		}
-	}
 		
-	//Horizontal collision
-	if (place_meeting(x+hsp,y,oWall)) {
-		while (!place_meeting(x+sign(hsp),y,oWall)) {
-			x = x + sign(hsp);
+		//Horizontal collision
+		if (place_meeting(x+hsp,y,oWall)) {
+			while (!place_meeting(x+sign(hsp),y,oWall)) {
+				x = x + sign(hsp);
+			}
+			hsp = 0;
 		}
-		hsp = 0;
-	}
 
-	x = x + hsp;
+		x = x + hsp;
 
 
-	//Vertical collision
-	if (place_meeting(x,y+vsp,oWall)) {
-		while (!place_meeting(x,y+sign(vsp),oWall)) {
-			y = y + sign(vsp);
+		//Vertical collision
+		if (place_meeting(x,y+vsp,oWall)) {
+			while (!place_meeting(x,y+sign(vsp),oWall)) {
+				y = y + sign(vsp);
+			}
+			vsp = 0;
 		}
-		vsp = 0;
-	}
 
-	y = y + vsp;
+		y = y + vsp;
 	
-	slime_hitstun -= 1;
+		slime_hitstun -= 1;
+	}
 	
 }

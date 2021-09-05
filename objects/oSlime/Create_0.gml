@@ -3,6 +3,7 @@
 slime_health = 15;
 slime_hitstun = 0;
 slime_hitstun_duration = 15;
+slime_hitlag = 0;
 slime_wait = 60;
 hsp = 0;
 vsp = 0;

@@ -76,6 +76,8 @@ function PlayerState_Attack_Slash(){
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
 							audio_play_sound(SwordHitEnemy, 10, false);
+							oPlayer.hitlag = 3;
+							slime_hitlag = 3;
 							slime_health -= 5;
 							slime_state = SLIMESTATE.HITSTUN();
 						}
@@ -83,6 +85,7 @@ function PlayerState_Attack_Slash(){
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
 							audio_play_sound(SwordHitEnemy, 10, false);
+							oPlayer.hitlag = 3;
 							worm_health -= 5;
 							worm_state = WORMSTATE.HITSTUN();
 						}
@@ -90,6 +93,7 @@ function PlayerState_Attack_Slash(){
 							instance_create_layer(hitID.x,hitID.y,"Instances", oHit);
 							oHit.image_xscale = oPlayer.image_xscale;
 							audio_play_sound(SwordHitEnemy, 10, false);
+							oPlayer.hitlag = 3;
 							mush_health -= 5;
 							mush_state = MUSHSTATE.HITSTUN();
 						}
@@ -101,6 +105,14 @@ function PlayerState_Attack_Slash(){
 	}
 	
 	if (vsp < 0 && !key_jump_held) vsp = max(vsp, 0);
+	
+	if (hitlag > 0) {
+		hitlag -= 1;
+		image_speed = 0.01;
+	}
+	else {
+		image_speed = 0.65;
+	}
 	
 	if (animation_end()) {
 		if (vsp > 0) {
