@@ -13,8 +13,8 @@
   "soundFile": "SwordSwing2.wav",
   "duration": 0.630204,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "SwordSwing2",

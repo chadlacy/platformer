@@ -138,6 +138,14 @@ function PlayerState_Attack_Slash(){
 		}
 		hsp = 0;	
 	}
+	
+	// Check for horizontal collision with stones
+	if (place_meeting(x+hsp,y,oStone)) {
+		while (!place_meeting(x+sign(hsp),y,oStone)) {
+			x = x + sign(hsp);
+		}
+		hsp = 0;
+	}
 
 	x = x + hsp;
 
@@ -166,6 +174,14 @@ function PlayerState_Attack_Slash(){
 				vsp = 0;
 			}
 		}
+	}
+	
+	//Vertical collision with stones
+	if (place_meeting(x,y+vsp,oStone)) {
+		while (!place_meeting(x,y+sign(vsp),oStone)) {
+			y = y + sign(vsp);
+		}
+		vsp = 0;
 	}
 	
 	y = y + vsp;

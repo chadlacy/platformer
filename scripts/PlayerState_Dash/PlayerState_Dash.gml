@@ -8,6 +8,7 @@ function PlayerState_Dash(){
 		dash_length_counter = dash_length;
 		sprite_index = sPlayerFall;
 		prev_state = PLAYERSTATE.DASH;
+		audio_play_sound(DashSound,10,false);
 	}
 	
 	if (image_xscale == 1) { // Are they dashing right?
@@ -51,14 +52,8 @@ function PlayerState_Dash(){
 	if (dash_length_counter <= 0) {
 		hsp = 0;
 		vsp = 0;
-		dash_cooldown = 30;
-		
-		if (place_meeting(x,y,oPlatform)) {
-			state = PLAYERSTATE.FALL
-		}
-		else {
-			state = PLAYERSTATE.FREE;
-		}
+		dash_cooldown = 30;		
+		state = PLAYERSTATE.FREE;
 	}
 	
 	// Check for collision with spikes
@@ -70,6 +65,14 @@ function PlayerState_Dash(){
 		else {
 			state = PLAYERSTATE.TRANS;
 		}
+	}
+	
+	// Check for horizontal collision with stones
+	if (place_meeting(x+hsp,y,oStone)) {
+		while (!place_meeting(x+sign(hsp),y,oStone)) {
+			x = x + sign(hsp);
+		}
+		hsp = 0;
 	}
 	
 	//Horizontal collision

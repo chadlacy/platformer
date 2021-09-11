@@ -13,8 +13,8 @@
   "soundFile": "TextScrollSound.wav",
   "duration": 0.505,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "SFX",
+    "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
   "name": "TextScrollSound",

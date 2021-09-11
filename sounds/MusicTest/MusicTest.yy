@@ -13,8 +13,8 @@
   "soundFile": "MusicTest.wav",
   "duration": 41.1478577,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Music",
+    "path": "folders/Sounds/Music.yy",
   },
   "resourceVersion": "1.0",
   "name": "MusicTest",

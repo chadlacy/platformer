@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "SwordSwing1.wav",
-  "duration": 0.538753,
+  "soundFile": "DashSound.wav",
+  "duration": 0.562698,
   "parent": {
     "name": "SFX",
     "path": "folders/Sounds/SFX.yy",
   },
   "resourceVersion": "1.0",
-  "name": "SwordSwing1",
+  "name": "DashSound",
   "tags": [],
   "resourceType": "GMSound",
 }

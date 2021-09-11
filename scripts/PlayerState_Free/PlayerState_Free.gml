@@ -59,7 +59,7 @@ function PlayerState_Free(){
 	}
 	
 	// Check for horizontal collision with stones, and then send player to push state if they have the powerup
-	if (place_meeting(x+hsp,y,oStone) && (place_meeting(x,y+1,oWall) || place_meeting(x,y+1,oPlatform))) {
+	if (place_meeting(x+hsp,y,oStone)) {
 		while (!place_meeting(x+sign(hsp),y,oStone)) {
 			x = x + sign(hsp);
 		}
