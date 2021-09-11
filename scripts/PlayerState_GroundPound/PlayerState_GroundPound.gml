@@ -26,8 +26,6 @@ function PlayerState_GroundPound(){
 		}
 	}
 	
-	// TODO: Figure out a way to clean up all this nasty redundant code
-	
 	//Vertical collision with stones
 	if (place_meeting(x,y+vsp,oStone)) {
 		while (!place_meeting(x,y+sign(vsp),oStone)) {
@@ -37,6 +35,7 @@ function PlayerState_GroundPound(){
 		if (sprite_index != sPlayerCrouch) {
 			sprite_index = sPlayerCrouch;
 			instance_create_layer(x,y,"Instances", oShockwave);
+			audio_play_sound(GroundPoundSound, 10, false);
 			ScreenShake(15, 1, 0.2);
 		}
 		if (gp_endlag_counter > 0) {
@@ -69,6 +68,7 @@ function PlayerState_GroundPound(){
 				if (sprite_index != sPlayerCrouch) {
 					sprite_index = sPlayerCrouch;
 					instance_create_layer(x,y,"Instances", oShockwave);
+					audio_play_sound(GroundPoundSound, 10, false);
 					ScreenShake(15, 1, 0.2);
 				}
 				if (gp_endlag_counter > 0) {
@@ -93,6 +93,7 @@ function PlayerState_GroundPound(){
 		if (sprite_index != sPlayerCrouch) {
 			sprite_index = sPlayerCrouch;
 			instance_create_layer(x,y,"Instances", oShockwave);
+			audio_play_sound(GroundPoundSound, 10, false);
 			ScreenShake(15, 1, 0.2);
 		}
 		if (gp_endlag_counter > 0) {
